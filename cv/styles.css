@@ -1,0 +1,87 @@
+/* .fluid-container {
+  width: 100%;
+  padding: 3% 15%;
+  position: static;
+} */
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+}
+
+/* top panel */
+.topPanel {
+  width: 100%;
+  background-color: #4a3f35;
+  padding-bottom: 200px;
+  margin-top: 0px;
+
+}
+
+.name {
+  float: left;
+  margin-left: 50px;
+  color: #fff;
+  text-align: left;
+}
+
+h1 {
+  margin-top: 70px;
+}
+h4 {
+  color: tomato;
+}
+#contactMe {
+  /* margin-top: 0px; */
+  width: 20%;
+  text-align: left;
+  position: absolute;
+  right: 50px;
+  top: 100px;
+  margin-right: 60px;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  background-color: #ff4301;
+}
+.contactMe {
+  float: right;
+  width: 40%;
+  margin-top: 70px;
+  margin-right: 50px;
+  color: #fff;
+}
+
+/* left panel  */
+.leftPanel {
+  width: 25%;
+  float: left;
+  background-color: tomato;
+  padding-bottom: 665px;
+  text-align: left;
+  padding-left: 50px;
+}
+.no-bullets, #contactMe {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* right panel */
+.rightPanel {
+  float: right;
+  width: 65%;
+  text-align: left;
+  margin-right: 50px;
+
+}
+
+hr {
+  width: 90%;
+  color: tomato;
+  border: solid;
+  border-width: 1px;
+  margin-left: 5px;
+}
