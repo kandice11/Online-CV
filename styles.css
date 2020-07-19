@@ -1,0 +1,81 @@
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  display: block;
+}
+
+/* top panel */
+.topPanel {
+  width: 100%;
+  background-color: #4a3f35;
+  padding-bottom: 200px;
+  margin-top: 0px;
+
+}
+
+.name {
+  float: left;
+  margin-left: 50px;
+  color: #fff;
+  text-align: left;
+}
+h1 {
+  margin-top: 70px;
+  font-size: 40px;
+}
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+p, li {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+h4 {
+  color: tomato;
+}
+.contactMeConatiner {
+  float: right;
+      width: 40%;
+      text-align: left;
+      color: #fff;
+      margin-top: 58px;
+}
+
+a {
+  color: #fff;
+}
+a:hover {
+  background-color: #ff4301;
+}
+/* left panel  */
+.leftPanel {
+  width: 25%;
+  float: left;
+  background-color: tomato;
+  padding-bottom: 665px;
+  text-align: left;
+  padding-left: 50px;
+}
+.no-bullets, #contactMe {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* right panel */
+.rightPanel {
+  float: right;
+  width: 60%;
+  text-align: left;
+
+}
+
+hr {
+  width: 90%;
+  color: tomato;
+  border: solid;
+  border-width: 1px;
+  margin-left: 5px;
+}
