@@ -16,17 +16,18 @@ body, html {
 
 .name {
   float: left;
-  margin-left: 50px;
+  margin-left: 20px;
   color: #fff;
   text-align: left;
+  width: 45%;
 }
 
 h1 {
   margin-top: 70px;
-  font-size: 40px;
+  font-size: 150%;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -36,14 +37,16 @@ p, li {
 
 h4 {
   color: tomato;
+  letter-spacing: 0.2rem;
 }
 
 .contactMeConatiner {
   float: right;
-  width: 40%;
+  width: 44%;
   color: #fff;
   text-align: left;
-  margin-top: 58px;
+  margin-top: 50px;
+  margin-right: 10px;
 }
 
 .contactMe {
@@ -55,24 +58,36 @@ h4 {
   margin-top: 0px;
 }
 
+a {
+  color: tomato;
+}
+
 a:hover {
-  background-color: #ff4301;
+  background-color: #fff;
 }
 
 /* left panel  */
 .leftPanel {
-  width: 25%;
+  width: 30%;
   float: left;
   background-color: tomato;
   padding-bottom: 665px;
   text-align: left;
-  padding-left: 50px;
-  height: 2000px;
+  padding-left: 10px;
+  height: 3600px;
+}
+
+.skills1 {
+  width: 25%;
 }
 
 .no-bullets, #contactMe {
   list-style-type: none;
   padding: 0;
+}
+
+.no-bullets {
+  font-weight: bolder;
 }
 
 /* right panel */
