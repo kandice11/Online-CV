@@ -1,0 +1,19 @@
+{
+  "name": "online-cv",
+  "version": "1.0.0",
+  "description": "My online CV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kandice11/Online-CV.git"
+  },
+  "author": "Kandice Everett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kandice11/Online-CV/issues"
+  },
+  "homepage": "https://github.com/kandice11/Online-CV#readme"
+}
