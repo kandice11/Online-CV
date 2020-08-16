@@ -4,6 +4,7 @@ function workExperience() {
     return (
         <div>
             <h2>Work Experience</h2>
+            <hr />
             <ul>
                 <li>
                     <strong> <em>Kender primary school - New Cross - Early Years Practitioner</em></strong>

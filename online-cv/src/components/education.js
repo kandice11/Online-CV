@@ -3,7 +3,9 @@ import React from 'react';
 function education() {
     return (
         <div>
+            
             <h2>Education</h2>
+            <hr />
             <ul>
                 <li>Greenwich University - Early Years Education Level 5
                     <br />
